@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .contenedor{
+        display: flex;
+    }
+    .tarjeta{
+        flex-direction: column;
+        width: 100%;
+    }
+    .tarjeta2{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 130px;
+    }
+    
+    .tarjetas{
+        background-color: aqua;
+        border: 3px solid ;
+        margin: 10px;
+        height: 200px;
+        border-radius: 30px;
+        padding: 20px;
+    }
+</style>
+<body>
+    <div class="contenedor">
+        <div class="tarjeta">
+            <div class="tarjetas"><h2>Grid Layout (Masonry o Tarjetas)</h2></div>
+            <div class="tarjetas">contenido</div>
+            <div class="tarjetas">contenido</div>
+         </div>
+        <div class="tarjeta2">
+                
+                <div class="tarjetas">contenido</div>
+                <div class="tarjetas">contenido</div>
+            </div>
+                <div class="tarjeta">
+                    <div class="tarjetas">contenido</div>
+                <div class="tarjetas">contenido</div>
+                <div class="tarjetas">contenido</div>
+            </div>
+            <div class="tarjeta2">
+                <div class="tarjetas">contenido</div>
+            <div class="tarjetas">contenido</div>
+
+        </div>
+    </div>
+</body>
+</html>
